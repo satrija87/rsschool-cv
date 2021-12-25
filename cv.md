@@ -6,8 +6,11 @@
 ### Contacts
 
 **Location:** Grodno, Belarus
+
 **Phone:** +375336859543
+
 **E-mail:** satrija87@gmail.com
+
 **LinkedIn:** [link](linkedin.com/in/darya-pronina-a10836ab)
 
 ----
@@ -54,6 +57,7 @@ function testArray(a, b) {
 **Higher education :**
 * 2006-2012 Belorusian state Academy of Music
 * 2015-2016 Yanka Kupala state University of Grodno
+  
 **Courses:**
 * [JS](https://stepik.org/course/2223)
 * [Html,Css](https://openedu.ru/course/ITMOUniversity/WEBDEV/)
@@ -64,5 +68,6 @@ function testArray(a, b) {
 ----
 
 ### Language
+
 **English** (learning in progress)
 **Russian** native
