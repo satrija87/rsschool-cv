@@ -21,7 +21,7 @@ Hello. I'm Darya. I have an education in music and in IT .
 The first sphere gives me experience in communicating with people from different countries during trainees and concert tours. I have experience in command work(international too).
 It has given me also a skill of stress resistance and ability to solve difficulties very quickly.
 I am a perfectionist . Also have an analitical mind and not ordinary thinking.
-IT is interesting for me since childhood. I learned SQL ,HTML,CSS by myself and JavaScript is learning in progress .I am learning frontend course in RS school now.
+IT is interesting for me since childhood. I learned SQL ,HTML,CSS by myself and JavaScript is learning in progress. I am learning frontend course in RS school now.
 I believe, that my ability to learn will lead me through this path of becoming a proficient Frontend Developer.
 
 ----
@@ -70,4 +70,5 @@ function testArray(a, b) {
 ### Language
 
 **English** (learning in progress)
+
 **Russian** native
