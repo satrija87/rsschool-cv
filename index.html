@@ -6,28 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miskevich CV RSS</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="nav">
-			<a class="nav-item" href="#about-myself">About Myself</a>
-			<a class="nav-item" href="#skills">Skills</a>
-			<a class="nav-item" href="#my-code">My code</a>
-			<a class="nav-item" href="#education">Video</a>
-            <a class="nav-item" href="#language">Language</a>
+			<li class="nav-item"><a href="#about-myself" >About Myself</a></li>
+			<li class="nav-item"><a href="#skills" >Skills</a></li>
+			<li class="nav-item"><a href="#my-code" >My code</a></li>
+            <li class="nav-item"><a href="#my-projects" >Projects</a></li>
+			<li class="nav-item"><a href="#education" >Education</a></li>
+            <li class="nav-item"><a href="#language">Language</a></li>
 		</nav>
         <div class="name">
-            <div class="left-column">
-                <h1>Miskevich Darya</h1>
-                <h2>Junior Frontend Developer</h2>
+            <div class="name-left left">
+                
+                <img src="assets/img/photo.png" alt="My photo" class="my-photo">
             </div>
-            <div class="right-column">
-                <img src="photo.png" alt="My photo" class="my-photo">
+            <div class="name-right right">
+                <h1>Miskevich Darya</h1>
+                <h3>Frontend Developer (beginer) </h3>
             </div>
           
         </div>
         <div class="contacts">
-            <ul>
+            <ul class="my-contacts">
                 <li>
                     <h4>Location</h4>
                     <p>Grodno, Belarus</p>
@@ -40,22 +43,21 @@
                     <h4>E-mail</h4>
                     <p>satrija87@gmail.com</p>
                 </li>
+                <li>
+                    <h4>Discord</h4>
+                    <p>satrija(@satrija87)</p>
+                </li>
             </ul>
         </div>
     </header>
     <main>
         <section id="about-myself">
-            <div class="about-myself-left">
+            <div class="about-myself-left left">
                 <h2>About myself</h2>
             </div>
-            <div class="about-myself-right">
-                <p>Hello. I’m Darya. I have an education in music and in IT . 
-                    The first sphere gives me experience in communicating with 
-                    people from different countries during trainees and concert 
-                    tours. I have experience in command work(international too).
-                     It has given me also a skill of stress resistance and ability
-                    to solve difficulties very quickly. I am a perfectionist .
-                    Also have an analitical mind and not ordinary thinking. 
+            <div class="about-myself-right right">
+                <p>Hello. I’m Darya. I have an education in music and in IT .
+                    I have an analitical mind and not ordinary thinking. 
                     IT is interesting for me since childhood. I learned SQL ,
                     HTML,CSS by myself and JavaScript is learning in progress.
                     I am learning frontend course in RS school now. I believe,
@@ -65,10 +67,10 @@
 
         </section>
         <section id="skills">
-            <div class="skills-left">
+            <div class="skills-left left">
                 <h2>Skills</h2>
             </div>
-            <div class="skills-right">
+            <div class="skills-right right">
                 <ul>
                     <li>HTML5, CSS3</li>
                     <li>JavaScript Basics</li>
@@ -81,13 +83,10 @@
             </div>
         </section>
         <section id="my-code">
-            <div class="my-code-left">
+            <div class="my-code-left left">
                 <h2>Code example</h2>
             </div>
-            <div class="my-code-right">
-                <p>Stepic : Two arrays of random length filled with random numbers 
-                    are passed to testArray function. You need to count the sum of 
-                    all elements of both arrays and return it from the function.</p>
+            <div class="my-code-right right">
                 <pre>
                     <code>
                         function testArray(a, b) {
@@ -102,16 +101,25 @@
                 </pre>
             </div> 
         </section>
+        <section id="my-projects">
+            <div class="projects-left left">
+                <h2>Projects</h2>
+            </div>
+            <div class="projects-right right">
+                <a href="https://satrija87.github.io/rsschool-cv/">CV</a>
+            </div>
+        </section>
         <section id="education">
-            <div class="education-left">
+            <div class="education-left left">
                 <h2>Education, courses</h2>
             </div>
-            <div class="education-right">
+            <div class="education-right right">
                 <article class="education-higher">
                     <h4>Higher education </h4>
                     <ul>
-                        <li></li>
-                        <li></li> 
+                        <li>Belorusian state Academy of Music
+                        </li>
+                        <li>Yanka Kupala state University of Grodno</li> 
                     </ul>
                 </article>
                 <article class="courses">
@@ -137,14 +145,14 @@
             </div>
         </section>
         <section id="language">
-            <div class="language-left">
+            <div class="language-left left">
                 <h2>Language</h2>
             </div>
-            <div class="languages-right">
-               <ul>
-                   <li><b>English</b>A2</li>
-                   <li><b>Russian</b>native</li>
-               </ul> 
+            <div class="languages-right right">
+               
+                   <p><b>English</b> (A2)</p>
+                   <p><b>Russian </b>(native)</p>
+               
             </div>
 
         </section>
